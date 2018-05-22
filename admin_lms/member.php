@@ -1,0 +1,66 @@
+<?php include('header.php'); ?>
+<?php include('session.php'); ?>
+<?php include('navbar_member.php'); ?>
+    <div class="container">
+		<div class="margin-top">
+         <?php /*?>Start Code For showing succcessfull massage <?php */?>      
+		<?php include_once('msg_text_html.php') ?>
+        <?php /*?>End Code For showing succcessfull massage <?php */?> 
+			<div class="row">	
+			<div class="span12">	
+			   <div class="alert alert-info">
+                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Member Table</strong>
+                                </div>
+                            <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
+                             
+								<p><a href="add_member.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Add Member</a></p>
+							
+                                <thead>
+                                    <tr>
+                       
+                                        <th>Name</th>                                 
+                                        <th>Gender</th>
+										<th>Address</th>
+										<th>Contact</th>
+										<th>Rank</th>
+										<th>Serial No</th>
+										<th>Membership Id</th>
+										<th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+								 
+                                  <?php  $user_query=mysql_query("select * from member")or die(mysql_error());
+									while($row=mysql_fetch_array($user_query)){
+									$id=$row['member_id'];  ?>
+									<tr class="del<?php echo $id ?>">
+									
+									                              
+                                    <td><?php echo $row['firstname']." ".$row['lastname']; ?></td>
+                                    <td><?php echo $row['gender']; ?> </td> 
+                                    <td><?php echo $row['address']; ?> </td>
+                                    <td><?php echo $row['contact']; ?></td>
+									<td><?php echo $row['rank']; ?></td> 
+									<td><?php echo $row['serial_no']; ?></td> 
+									<td><?php echo $row['membership_id']; ?></td> 
+									<?php include('toolttip_edit_delete.php'); ?>
+                                    <td width="100">
+                                       <?php /*?> <a rel="tooltip"  title="Delete" id="<?php echo $id; ?>" href="#delete_student<?php echo $id; ?>" data-toggle="modal"    class="btn btn-danger"><i class="icon-trash icon-large"></i></a><?php */?>
+                                        <?php include('delete_student_modal.php'); ?>
+										<a  rel="tooltip"  title="Edit" id="e<?php echo $id; ?>" href="edit_member.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="icon-pencil icon-large"></i></a>
+										
+                                    </td>
+									
+                                    </tr>
+									<?php  }  ?>
+                           
+                                </tbody>
+                            </table>
+							
+			
+			</div>		
+			</div>
+		</div>
+    </div>
+<?php include('footer.php') ?>
