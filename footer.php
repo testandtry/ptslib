@@ -2,7 +2,7 @@
     <footer class="footer">
       <div class="container">
 	  <div class="foot-margin">
-        <p>© 2018. <a href="http://www.saslab.in/" target="_blank" data-original-title="" title=""><?php echo TITLE_OF_COPYRIGHT_TEXT; ?></a> . All right resrved.</p>
+        <p>© 2018. <a href="#" target="_blank" data-original-title="" title=""><?php echo TITLE_OF_COPYRIGHT_TEXT; ?></a> . All right resrved.</p>
       </div>
       </div>
     </footer>

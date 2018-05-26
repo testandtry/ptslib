@@ -42,6 +42,8 @@
 					
 					</div>
 					</div>
+
+					<!-- Remove Logo
 			<div class="row">
                 <div class="span2" style="float:right; margin-top:7%;">		
                        <center>
@@ -51,6 +53,7 @@
                 </center>
                 </div>
                 </div>
+            -->
 		</div>
     </div>
 <?php include('footer.php') ?>
