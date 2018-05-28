@@ -34,7 +34,7 @@
 	<td colspan="3"></td>
 	</tr>
 	<tr>
-	<td>Library Management System<br />Librarian </td>
+	<td>PTS Library<br />Librarian </td>
 	</tr>
 	
 	</tbody>

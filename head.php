@@ -2,6 +2,7 @@
                 <div class="row">
                 
         <div class="span12">
+     
 				<div class="alert alert-info span12" style="width:95%;"><Strong></strong>&nbsp; <?php echo TITLE_OF_WELCOME_TEXT; ?>			
 					
 	
