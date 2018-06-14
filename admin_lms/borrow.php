@@ -70,7 +70,7 @@ echo date_format($date,"d/m/Y");?>" required/>
                         
                 <strong>Book Barcode:</strong> <input type="text" id="book_barcode" name="book_barcode" /> 
                 
-                <div id="bookshelf_id_wrapper" style="float:right;">    
+                <div id="bookshelf_id_wrapper" style="float:right; visibility: hidden">    
                         <strong>Book Shelf:</strong>                 
 				<select name="bookshelf_id" id="bookshelf_id" class="" />
 				<option value="">Select</option>
@@ -184,7 +184,6 @@ echo date_format($date,"d/m/Y");?>" required/>
 									$id=$row['book_id'];  
 									$cat_id=$row['category_id'];
 									$bookshelf=$row['bookshelf'];
-
 											$cat_query = mysql_query("select category_title from ".DB_TABLE_CATEGORY." 
 																	 where category_id = '$cat_id'")or die(mysql_error());
 											$cat_row = mysql_fetch_array($cat_query);
@@ -250,7 +249,6 @@ $(".uniform_on").change(function(){
         $(".uniform_on:checked").removeAttr('disabled');
 		
     }else{
-
          $(".uniform_on").removeAttr('disabled');
     }
 })

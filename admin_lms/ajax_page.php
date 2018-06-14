@@ -72,7 +72,6 @@ session_start();
 									$id=$row['book_id'];  
 									$cat_id=$row['category_id'];
 									$bookshelf=$row['bookshelf'];
-
 											$cat_query = mysql_query("select category_title from ".DB_TABLE_CATEGORY." 
 																	 where category_id = '$cat_id'")or die(mysql_error());
 											$cat_row = mysql_fetch_array($cat_query);
