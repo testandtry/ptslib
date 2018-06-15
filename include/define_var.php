@@ -4,7 +4,7 @@ define("TITLE_OF_WELCOME_TEXT","Welcome to PTS LIBRARY");
 define("TITLE_OF_ORGANIZATION","");
 define("TITLE_OF_COPYRIGHT_TEXT","Police Training School, Kolkata Police");
 
-define("USER_WELCOME_TEXT","Welcome: Admin");
+define("USER_WELCOME_TEXT","");
 define("MEMBERSHIP_ID_WHEN_NULL","1000000001");
 
 

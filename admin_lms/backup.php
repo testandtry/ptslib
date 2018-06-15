@@ -116,8 +116,10 @@ $page_name=basename($_SERVER['PHP_SELF']);
              <div class="alert alert-info"> Backup Database</div>
 	
 	<div class="addstudent">
-	<div class="details"></div>	                
-                
+	<div class="details">
+		<strong> Download Backup </strong> 
+	</div>	                
+               
       
 <div class="container-fluid table_border" style="background:#fff">
 <div class="col-md-4" style="margin:5% 0 4% 18%;">

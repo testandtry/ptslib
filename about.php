@@ -6,6 +6,22 @@
 			<?php include('head.php'); ?>
 				
 				<div class="text_content" style="margin-top:0px;">
+
+
+					<div class="container-fluid">
+ 						 <h2 id="about_text" align="center" color="#454645">LIBRARY HOURS</h2>
+ 						 		<div class="alert alert-info fade in">
+			    					<a href="#" class="close" data-dismiss="alert">&times;</a>
+			    					<strong> Librarian:  </strong> 
+								</div>
+			 					<div class="alert alert-info fade in">
+			    					<a href="#" class="close" data-dismiss="alert">&times;</a>
+			    					<strong>Monday and Tuesday <br/> 8:00 a.m. to 7:00 p.m.<hr/>Wednesday to Friday<br/>8:00 a.m. to 6:30 p.m.<hr/> SUNDAY CLOSED!! </strong> 
+								</div>
+								
+							</div>
+
+					<!-- Table contents removed
 					
 					<table width="450" style="margin: 0pt auto;">
 	
@@ -39,7 +55,7 @@
 	
 	</tbody>
 	</table>
-					
+			-->	
 					</div>
 					</div>
 

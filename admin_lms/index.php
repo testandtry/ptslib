@@ -11,7 +11,7 @@
 					</div>
 				<div class="login">
 				<div class="log_txt">
-				<p><strong>Please Enter the Details Below..</strong></p>
+				<p><strong>Admin Log In</strong></p>
 				</div>
 						<form class="form-horizontal" method="POST">
 								<div class="control-group">
