@@ -10,4 +10,4 @@ Bug in Issue A Book section detected.
 	Bookshelf dropdown displaying members list
 	
 -->
-	Fixed Issue Section
+	Fixed Issue Section\nAll bugs fixed.. Ready for Version 1 Release..
