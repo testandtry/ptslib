@@ -11,3 +11,4 @@ Bug in Issue A Book section detected.
 	
 -->
 	Fixed Issue Section\nAll bugs fixed.. Ready for Version 1 Release..
+\n V1.0 released
